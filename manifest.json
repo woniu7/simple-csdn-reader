@@ -1,0 +1,26 @@
+{
+
+  "description": "Simple CSDN reader",
+  "manifest_version": 2,
+  "name": "simple-csdn-reader",
+  "version": "1.0",
+  "homepage_url": "https://github.com/woniu7/simple-csdn-reader",
+  "icons": {
+    "48": "pen.svg"
+  },
+
+  "permissions": [
+    "tabs", "https://blog.csdn.net/*"
+  ],
+
+  "background": {
+    "scripts": ["background.js"]
+  },
+
+  "browser_specific_settings": {
+    "gecko": {
+      "strict_min_version": "57.0a1"
+    }
+  }
+
+}
